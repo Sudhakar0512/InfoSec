@@ -2,7 +2,7 @@ sudo su
 apt install snort
 snort --version
 
-go to bin folder -> run as administrate
+go to etc folder -> run as administrate
 go to snort.conf
 step 1 chnage the network ip any to local system ip address
 Verify the rules
