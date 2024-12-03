@@ -1,0 +1,22 @@
+sudo su
+apt install snort
+snort --version
+
+go to bin folder -> run as administrate
+go to snort.conf
+step 1 chnage the network ip any to local system ip address
+Verify the rules
+
+if you need the customize rules go to sharpy and make the customize own rules
+
+
+For testing
+commend
+snort -T -c /etc/snort/snort.conf
+
+Running command
+
+sudo snort -A console -q -c /etc/snort/snort.conf i ens33
+
+sudo snort -A console -q -c /etc/snort/snort.conf -i wlp1s0
+
